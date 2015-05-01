@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3E9B47201AF3B4250012FE79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B471F1AF3B4250012FE79 /* main.m */; };
+		3E9B47281AF3B4F90012FE79 /* BonjourBrowserService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B47271AF3B4F90012FE79 /* BonjourBrowserService.m */; };
+		3E9B472B1AF3C4000012FE79 /* BonjourResolverService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B472A1AF3C4000012FE79 /* BonjourResolverService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		3E9B471C1AF3B4250012FE79 /* BonjourBrowserService */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BonjourBrowserService; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E9B471F1AF3B4250012FE79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E9B47261AF3B4E90012FE79 /* BonjourBrowserService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BonjourBrowserService.h; sourceTree = "<group>"; };
+		3E9B47271AF3B4F90012FE79 /* BonjourBrowserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourBrowserService.m; sourceTree = "<group>"; };
+		3E9B47291AF3C3EC0012FE79 /* BonjourResolverService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BonjourResolverService.h; sourceTree = "<group>"; };
+		3E9B472A1AF3C4000012FE79 /* BonjourResolverService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourResolverService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				3E9B471F1AF3B4250012FE79 /* main.m */,
+				3E9B47261AF3B4E90012FE79 /* BonjourBrowserService.h */,
+				3E9B47271AF3B4F90012FE79 /* BonjourBrowserService.m */,
+				3E9B47291AF3C3EC0012FE79 /* BonjourResolverService.h */,
+				3E9B472A1AF3C4000012FE79 /* BonjourResolverService.m */,
 			);
 			path = BonjourBrowserService;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E9B47281AF3B4F90012FE79 /* BonjourBrowserService.m in Sources */,
 				3E9B47201AF3B4250012FE79 /* main.m in Sources */,
+				3E9B472B1AF3C4000012FE79 /* BonjourResolverService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
