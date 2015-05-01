@@ -7,11 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BonjourBrowserService.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
+        
+        BonjourBrowserService *bs = [[BonjourBrowserService alloc] init];
+        [bs startBrowsingForType:@"_HTTP._tcp."];
+        
+        [[NSRunLoop currentRunLoop] run];
     }
     return 0;
 }
